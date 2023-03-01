@@ -1,0 +1,46 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+          /* font-family: 'Tilt Prism', cursive; */
+          font-family: 'Roboto Mono', monospace;
+          color: #15d515;
+          background: black
+  }
+  #info{
+    margin: 30px 0px;
+    font-size: 25px;
+  }
+  #container{
+    margin: 30px 0px;
+    font-size: 25px;
+  }
+  input{
+  width: 15%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: red;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  }
+  button{
+    padding: 5px;
+    width: 100px;
+    /* color: red; */
+    background-color: #15d515;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+  button:hover{
+    font-weight: bold;
+    color: red;
+  }
+  #written{
+    color: red;
+  }
